@@ -1,0 +1,21 @@
+
+/* Class = "UIViewController"; title = "Camera Controller"; ObjectID = "1NF-zS-rDt"; */
+"1NF-zS-rDt.title" = "Camera Controller";
+
+/* Class = "UIButton"; normalTitle = "Camera"; ObjectID = "8Ub-2a-XEs"; */
+"8Ub-2a-XEs.normalTitle" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "Record"; ObjectID = "Nh7-RY-WGy"; */
+"Nh7-RY-WGy.normalTitle" = "Record";
+
+/* Class = "UILabel"; text = "Camera Unavailable"; ObjectID = "QI7-UC-O0Q"; */
+"QI7-UC-O0Q.text" = "Camera Unavailable";
+
+/* Class = "UITextField"; text = "Copy right, Kian Davoudi Rad Jan 2017"; ObjectID = "bqS-8Q-Y45"; */
+"bqS-8Q-Y45.text" = "Copy right, Kian Davoudi Rad Jan 2017";
+
+/* Class = "UIButton"; normalTitle = "Tap to resume"; ObjectID = "duK-eX-YcK"; */
+"duK-eX-YcK.normalTitle" = "Tap to resume";
+
+/* Class = "UIButton"; normalTitle = "Still"; ObjectID = "emd-6o-3ou"; */
+"emd-6o-3ou.normalTitle" = "Still";

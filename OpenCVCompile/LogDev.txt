@@ -1,0 +1,11 @@
+Feb 5:
+===================================================================================
+Error: 
+certificate error with xcodeproj. 
+
+Describtion: 
+With the su user; I usually open this project as "Kian Davoudi-Rad". 
+
+Solution: 
+Open this project from the finder. 
+
