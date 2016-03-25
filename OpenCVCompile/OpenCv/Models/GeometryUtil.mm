@@ -12,7 +12,7 @@
 //
 
 #import "GeometryUtil.h"
-
+#import <opencv2/opencv.hpp>
 @implementation GeometryUtil
 
 #define PYTHAGOR(p1,p2) (sqrt((p1.x-p2.x)*(p1.x-p2.x) + (p1.y-p2.y)*(p1.y-p2.y)))

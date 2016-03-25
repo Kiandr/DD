@@ -10,7 +10,7 @@
 //  Created by altaibayar tseveenbayar on 13/05/15.
 //  Copyright (c) 2015 altaibayar tseveenbayar. All rights reserved.
 //
-
+#import <opencv2/opencv.hpp>
 #import "MSERManager.h"
 #import "ImageUtils.h"
 

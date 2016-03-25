@@ -20,6 +20,8 @@
 		9F1569F61C1FFDF700B3E6F1 /* OpenCVCompileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569F51C1FFDF700B3E6F1 /* OpenCVCompileUITests.m */; };
 		9F2E085D1C656B47005D8FE2 /* OpenCvServiceRepository.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E085C1C656B47005D8FE2 /* OpenCvServiceRepository.mm */; };
 		9F30C1C91C8433630018988D /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F30C1C81C8433630018988D /* sample.png */; };
+		9F5607861CA5F3A900313BA4 /* FPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F5607831CA5F3A900313BA4 /* FPS.mm */; };
+		9F5607871CA5F3A900313BA4 /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F5607851CA5F3A900313BA4 /* ImageUtils.mm */; };
 		9F897A441C61CE6600DD266E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F897A431C61CE6600DD266E /* Accelerate.framework */; };
 		9F897A461C61CE7700DD266E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F897A451C61CE7700DD266E /* AssetsLibrary.framework */; };
 		9F897A481C61CE7F00DD266E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F897A471C61CE7F00DD266E /* AVFoundation.framework */; };
@@ -95,6 +97,10 @@
 		9F2E085B1C656B47005D8FE2 /* OpenCvServiceRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCvServiceRepository.h; sourceTree = "<group>"; };
 		9F2E085C1C656B47005D8FE2 /* OpenCvServiceRepository.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCvServiceRepository.mm; sourceTree = "<group>"; };
 		9F30C1C81C8433630018988D /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		9F5607821CA5F3A900313BA4 /* FPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPS.h; sourceTree = "<group>"; };
+		9F5607831CA5F3A900313BA4 /* FPS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPS.mm; sourceTree = "<group>"; };
+		9F5607841CA5F3A900313BA4 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
+		9F5607851CA5F3A900313BA4 /* ImageUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtils.mm; sourceTree = "<group>"; };
 		9F897A421C61B81200DD266E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Assets.xcassets/PrefixHeader.pch; sourceTree = "<group>"; };
 		9F897A431C61CE6600DD266E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		9F897A451C61CE7700DD266E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
@@ -182,6 +188,10 @@
 				9FBEDBAC1CA5EB460062A1F8 /* MSERManager.mm */,
 				9F30C1C81C8433630018988D /* sample.png */,
 				9F11BDF01C7EB73300D2E9F9 /* CommonServicesImageProcessing.hpp */,
+				9F5607821CA5F3A900313BA4 /* FPS.h */,
+				9F5607831CA5F3A900313BA4 /* FPS.mm */,
+				9F5607841CA5F3A900313BA4 /* ImageUtils.h */,
+				9F5607851CA5F3A900313BA4 /* ImageUtils.mm */,
 				9F11BDF11C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm */,
 				9FB027171C827EF200E327AD /* RetroFilter.hpp */,
 				9FB027161C827EF200E327AD /* RetroFilter.cpp */,
@@ -522,6 +532,7 @@
 				9F1569D21C1FFDF700B3E6F1 /* AppDelegate.m in Sources */,
 				9FBEDBAD1CA5EB460062A1F8 /* GeometryUtil.mm in Sources */,
 				9FBEDBAE1CA5EB460062A1F8 /* MLManager.mm in Sources */,
+				9F5607871CA5F3A900313BA4 /* ImageUtils.mm in Sources */,
 				9F1569DB1C1FFDF700B3E6F1 /* OpenCVCompile.xcdatamodeld in Sources */,
 				9F11BDF21C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm in Sources */,
 				9FC4C3DB1C7FB00700A4956C /* GeometricsProcessing.mm in Sources */,
@@ -531,6 +542,7 @@
 				9FC4C3DF1C7FB24A00A4956C /* MSERProcessing.mm in Sources */,
 				9F897A6B1C6304F100DD266E /* OpenCvController.mm in Sources */,
 				9FCA774E1C5B49C80061E6DF /* AAPLCameraViewController.m in Sources */,
+				9F5607861CA5F3A900313BA4 /* FPS.mm in Sources */,
 				9F897A6F1C63131A00DD266E /* OpenCvBussinessRepository.mm in Sources */,
 				9FCA77511C5B49C80061E6DF /* AAPLPreviewView.m in Sources */,
 			);

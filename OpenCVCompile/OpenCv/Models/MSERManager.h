@@ -12,7 +12,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <opencv2/opencv.hpp>
 #import <opencv2/features2d/features2d.hpp>
 #import "MSERFeature.h"
 
