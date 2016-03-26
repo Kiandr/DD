@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OpenCVCompile.xcodeproj">
+      location = "self:/Users/kiandr/Documents/Xcode/DD/SmartCamera.xcodeproj">
    </FileRef>
 </Workspace>

@@ -75,7 +75,7 @@
 		9F11BDF01C7EB73300D2E9F9 /* CommonServicesImageProcessing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommonServicesImageProcessing.hpp; sourceTree = "<group>"; };
 		9F11BDF11C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommonServicesImageProcessing.mm; sourceTree = "<group>"; };
 		9F14EFD11C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BattleMapSplashScreen.jpg; sourceTree = "<group>"; };
-		9F1569CA1C1FFDF700B3E6F1 /* OpenCVCompile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVCompile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1569CA1C1FFDF700B3E6F1 /* SmartCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1569CE1C1FFDF700B3E6F1 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		9F1569D01C1FFDF700B3E6F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F1569D11C1FFDF700B3E6F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -86,10 +86,10 @@
 		9F1569DC1C1FFDF700B3E6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1569DF1C1FFDF700B3E6F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F1569E11C1FFDF700B3E6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F1569E61C1FFDF700B3E6F1 /* OpenCVCompileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVCompileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1569E61C1FFDF700B3E6F1 /* SmartCamera.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCamera.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1569EA1C1FFDF700B3E6F1 /* OpenCVCompileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVCompileTests.m; sourceTree = "<group>"; };
 		9F1569EC1C1FFDF700B3E6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F1569F11C1FFDF700B3E6F1 /* OpenCVCompileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVCompileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1569F11C1FFDF700B3E6F1 /* SmartCamera.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCamera.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1569F51C1FFDF700B3E6F1 /* OpenCVCompileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVCompileUITests.m; sourceTree = "<group>"; };
 		9F1569F71C1FFDF700B3E6F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2E08581C654BD3005D8FE2 /* DataModelObjectDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelObjectDetection.h; sourceTree = "<group>"; };
@@ -206,9 +206,9 @@
 		9F1569C11C1FFDF700B3E6F1 = {
 			isa = PBXGroup;
 			children = (
-				9F1569CC1C1FFDF700B3E6F1 /* OpenCVCompile */,
-				9F1569E91C1FFDF700B3E6F1 /* OpenCVCompileTests */,
-				9F1569F41C1FFDF700B3E6F1 /* OpenCVCompileUITests */,
+				9F1569CC1C1FFDF700B3E6F1 /* SmartCamera */,
+				9F1569E91C1FFDF700B3E6F1 /* SmartCameraTests */,
+				9F1569F41C1FFDF700B3E6F1 /* SmartCameraUITests */,
 				9F1569CB1C1FFDF700B3E6F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,14 +216,14 @@
 		9F1569CB1C1FFDF700B3E6F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F1569CA1C1FFDF700B3E6F1 /* OpenCVCompile.app */,
-				9F1569E61C1FFDF700B3E6F1 /* OpenCVCompileTests.xctest */,
-				9F1569F11C1FFDF700B3E6F1 /* OpenCVCompileUITests.xctest */,
+				9F1569CA1C1FFDF700B3E6F1 /* SmartCamera.app */,
+				9F1569E61C1FFDF700B3E6F1 /* SmartCamera.xctest */,
+				9F1569F11C1FFDF700B3E6F1 /* SmartCamera.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F1569CC1C1FFDF700B3E6F1 /* OpenCVCompile */ = {
+		9F1569CC1C1FFDF700B3E6F1 /* SmartCamera */ = {
 			isa = PBXGroup;
 			children = (
 				9FC4C3D71C7FAB1700A4956C /* opencv2.framework */,
@@ -249,6 +249,7 @@
 				9F897A451C61CE7700DD266E /* AssetsLibrary.framework */,
 				9F897A431C61CE6600DD266E /* Accelerate.framework */,
 			);
+			name = SmartCamera;
 			path = OpenCVCompile;
 			sourceTree = "<group>";
 		};
@@ -261,21 +262,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9F1569E91C1FFDF700B3E6F1 /* OpenCVCompileTests */ = {
+		9F1569E91C1FFDF700B3E6F1 /* SmartCameraTests */ = {
 			isa = PBXGroup;
 			children = (
 				9F1569EA1C1FFDF700B3E6F1 /* OpenCVCompileTests.m */,
 				9F1569EC1C1FFDF700B3E6F1 /* Info.plist */,
 			);
+			name = SmartCameraTests;
 			path = OpenCVCompileTests;
 			sourceTree = "<group>";
 		};
-		9F1569F41C1FFDF700B3E6F1 /* OpenCVCompileUITests */ = {
+		9F1569F41C1FFDF700B3E6F1 /* SmartCameraUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9F1569F51C1FFDF700B3E6F1 /* OpenCVCompileUITests.m */,
 				9F1569F71C1FFDF700B3E6F1 /* Info.plist */,
 			);
+			name = SmartCameraUITests;
 			path = OpenCVCompileUITests;
 			sourceTree = "<group>";
 		};
@@ -396,9 +399,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F1569C91C1FFDF700B3E6F1 /* OpenCVCompile */ = {
+		9F1569C91C1FFDF700B3E6F1 /* SmartCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F1569FA1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompile" */;
+			buildConfigurationList = 9F1569FA1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCamera" */;
 			buildPhases = (
 				9F1569C61C1FFDF700B3E6F1 /* Sources */,
 				9F1569C71C1FFDF700B3E6F1 /* Frameworks */,
@@ -408,14 +411,14 @@
 			);
 			dependencies = (
 			);
-			name = OpenCVCompile;
+			name = SmartCamera;
 			productName = OpenCVCompile;
-			productReference = 9F1569CA1C1FFDF700B3E6F1 /* OpenCVCompile.app */;
+			productReference = 9F1569CA1C1FFDF700B3E6F1 /* SmartCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F1569E51C1FFDF700B3E6F1 /* OpenCVCompileTests */ = {
+		9F1569E51C1FFDF700B3E6F1 /* SmartCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F1569FD1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompileTests" */;
+			buildConfigurationList = 9F1569FD1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCameraTests" */;
 			buildPhases = (
 				9F1569E21C1FFDF700B3E6F1 /* Sources */,
 				9F1569E31C1FFDF700B3E6F1 /* Frameworks */,
@@ -426,14 +429,14 @@
 			dependencies = (
 				9F1569E81C1FFDF700B3E6F1 /* PBXTargetDependency */,
 			);
-			name = OpenCVCompileTests;
+			name = SmartCameraTests;
 			productName = OpenCVCompileTests;
-			productReference = 9F1569E61C1FFDF700B3E6F1 /* OpenCVCompileTests.xctest */;
+			productReference = 9F1569E61C1FFDF700B3E6F1 /* SmartCamera.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9F1569F01C1FFDF700B3E6F1 /* OpenCVCompileUITests */ = {
+		9F1569F01C1FFDF700B3E6F1 /* SmartCameraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F156A001C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompileUITests" */;
+			buildConfigurationList = 9F156A001C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCameraUITests" */;
 			buildPhases = (
 				9F1569ED1C1FFDF700B3E6F1 /* Sources */,
 				9F1569EE1C1FFDF700B3E6F1 /* Frameworks */,
@@ -444,9 +447,9 @@
 			dependencies = (
 				9F1569F31C1FFDF700B3E6F1 /* PBXTargetDependency */,
 			);
-			name = OpenCVCompileUITests;
+			name = SmartCameraUITests;
 			productName = OpenCVCompileUITests;
-			productReference = 9F1569F11C1FFDF700B3E6F1 /* OpenCVCompileUITests.xctest */;
+			productReference = 9F1569F11C1FFDF700B3E6F1 /* SmartCamera.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -472,7 +475,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F1569C51C1FFDF700B3E6F1 /* Build configuration list for PBXProject "OpenCVCompile" */;
+			buildConfigurationList = 9F1569C51C1FFDF700B3E6F1 /* Build configuration list for PBXProject "SmartCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -485,9 +488,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F1569C91C1FFDF700B3E6F1 /* OpenCVCompile */,
-				9F1569E51C1FFDF700B3E6F1 /* OpenCVCompileTests */,
-				9F1569F01C1FFDF700B3E6F1 /* OpenCVCompileUITests */,
+				9F1569C91C1FFDF700B3E6F1 /* SmartCamera */,
+				9F1569E51C1FFDF700B3E6F1 /* SmartCameraTests */,
+				9F1569F01C1FFDF700B3E6F1 /* SmartCameraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -577,12 +580,12 @@
 /* Begin PBXTargetDependency section */
 		9F1569E81C1FFDF700B3E6F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F1569C91C1FFDF700B3E6F1 /* OpenCVCompile */;
+			target = 9F1569C91C1FFDF700B3E6F1 /* SmartCamera */;
 			targetProxy = 9F1569E71C1FFDF700B3E6F1 /* PBXContainerItemProxy */;
 		};
 		9F1569F31C1FFDF700B3E6F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F1569C91C1FFDF700B3E6F1 /* OpenCVCompile */;
+			target = 9F1569C91C1FFDF700B3E6F1 /* SmartCamera */;
 			targetProxy = 9F1569F21C1FFDF700B3E6F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -704,8 +707,8 @@
 				INFOPLIST_FILE = OpenCVCompile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.SmartCamera;
+				PRODUCT_NAME = SmartCamera;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -725,8 +728,8 @@
 				INFOPLIST_FILE = OpenCVCompile/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompile;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = KDR.SmartCamera;
+				PRODUCT_NAME = SmartCamera;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -739,8 +742,8 @@
 				INFOPLIST_FILE = OpenCVCompileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVCompile.app/OpenCVCompile";
+				PRODUCT_NAME = SmartCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCamera.app/SmartCamera";
 			};
 			name = Debug;
 		};
@@ -751,8 +754,8 @@
 				INFOPLIST_FILE = OpenCVCompileTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompileTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCVCompile.app/OpenCVCompile";
+				PRODUCT_NAME = SmartCamera;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCamera.app/SmartCamera";
 			};
 			name = Release;
 		};
@@ -762,7 +765,7 @@
 				INFOPLIST_FILE = OpenCVCompileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SmartCamera;
 				TEST_TARGET_NAME = OpenCVCompile;
 				USES_XCTRUNNER = YES;
 			};
@@ -774,7 +777,7 @@
 				INFOPLIST_FILE = OpenCVCompileUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.OpenCVCompileUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SmartCamera;
 				TEST_TARGET_NAME = OpenCVCompile;
 				USES_XCTRUNNER = YES;
 			};
@@ -783,7 +786,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F1569C51C1FFDF700B3E6F1 /* Build configuration list for PBXProject "OpenCVCompile" */ = {
+		9F1569C51C1FFDF700B3E6F1 /* Build configuration list for PBXProject "SmartCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F1569F81C1FFDF700B3E6F1 /* Debug */,
@@ -792,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F1569FA1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompile" */ = {
+		9F1569FA1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F1569FB1C1FFDF700B3E6F1 /* Debug */,
@@ -801,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F1569FD1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompileTests" */ = {
+		9F1569FD1C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F1569FE1C1FFDF700B3E6F1 /* Debug */,
@@ -810,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F156A001C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "OpenCVCompileUITests" */ = {
+		9F156A001C1FFDF700B3E6F1 /* Build configuration list for PBXNativeTarget "SmartCameraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F156A011C1FFDF700B3E6F1 /* Debug */,

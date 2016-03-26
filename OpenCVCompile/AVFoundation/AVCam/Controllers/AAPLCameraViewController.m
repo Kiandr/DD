@@ -1129,7 +1129,13 @@ didOutputSampleBuffer:(CMSampleBufferRef)sampleBuffer
             {
                 NSLog(@"AI ON");
                 _customVideoDataOutPut = [[AVCaptureVideoDataOutput alloc] init];
-                if ( [self.session canAddOutput:_customVideoDataOutPut] ) {
+                if ([self.session canAddOutput:_customVideoDataOutPut] ) {
+                    // run the OpenCV Bussiness RepoOnly.
+                    
+                    
+                    
+                    
+                    
                     [self.session addOutput:_customVideoDataOutPut];
                     self.videoDataOutput = _customVideoDataOutPut;
                     NSDictionary *newSettings = @{ (NSString *)kCVPixelBufferPixelFormatTypeKey : @(kCVPixelFormatType_32BGRA) };
