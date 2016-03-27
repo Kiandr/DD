@@ -42,6 +42,10 @@
 - (UIImage*)AITurnOn:(UIImage*)image{
     
     
+    // Apply MSER detection
+    // image = [busserepo ]
+    
+    
     // Initalization of all Local Vaiables
     cv::Mat gray;
     cv::Mat inputImage;
@@ -55,6 +59,11 @@
     
     // Cunstroctin a gray 2-D array
     cv::cvtColor( inputImage, gray, CV_BGRA2GRAY );
+    
+    // gray shoud be the example picture that custrocts and object in the detector which is bwing used in the extrct Features.
+    
+    UIImage *test = [UIImage imageNamed:@"O.png"];
+    //UIImage* imageObj = [[UIImage alloc] initWithContentsOfFile:imageName];
     
     
     // Calling to MSER Manager /*This manager layer is unknown to me*/

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9F11BDF21C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F11BDF11C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm */; };
-		9F14EFD21C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F14EFD11C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg */; };
 		9F1569CF1C1FFDF700B3E6F1 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569CE1C1FFDF700B3E6F1 /* main.mm */; };
 		9F1569D21C1FFDF700B3E6F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569D11C1FFDF700B3E6F1 /* AppDelegate.m */; };
 		9F1569D51C1FFDF700B3E6F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569D41C1FFDF700B3E6F1 /* ViewController.m */; };
@@ -19,7 +18,7 @@
 		9F1569EB1C1FFDF700B3E6F1 /* OpenCVCompileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569EA1C1FFDF700B3E6F1 /* OpenCVCompileTests.m */; };
 		9F1569F61C1FFDF700B3E6F1 /* OpenCVCompileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1569F51C1FFDF700B3E6F1 /* OpenCVCompileUITests.m */; };
 		9F2E085D1C656B47005D8FE2 /* OpenCvServiceRepository.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E085C1C656B47005D8FE2 /* OpenCvServiceRepository.mm */; };
-		9F30C1C91C8433630018988D /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F30C1C81C8433630018988D /* sample.png */; };
+		9F410FB91CA786A7003A45DA /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F410FB81CA786A7003A45DA /* O.png */; };
 		9F5607861CA5F3A900313BA4 /* FPS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F5607831CA5F3A900313BA4 /* FPS.mm */; };
 		9F5607871CA5F3A900313BA4 /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9F5607851CA5F3A900313BA4 /* ImageUtils.mm */; };
 		9F897A441C61CE6600DD266E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F897A431C61CE6600DD266E /* Accelerate.framework */; };
@@ -74,7 +73,6 @@
 /* Begin PBXFileReference section */
 		9F11BDF01C7EB73300D2E9F9 /* CommonServicesImageProcessing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommonServicesImageProcessing.hpp; sourceTree = "<group>"; };
 		9F11BDF11C7EB73300D2E9F9 /* CommonServicesImageProcessing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CommonServicesImageProcessing.mm; sourceTree = "<group>"; };
-		9F14EFD11C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BattleMapSplashScreen.jpg; sourceTree = "<group>"; };
 		9F1569CA1C1FFDF700B3E6F1 /* SmartCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1569CE1C1FFDF700B3E6F1 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		9F1569D01C1FFDF700B3E6F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,7 +94,7 @@
 		9F2E08591C654E1E005D8FE2 /* DataModelOpenCvAlgorithmsTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelOpenCvAlgorithmsTypes.h; sourceTree = "<group>"; };
 		9F2E085B1C656B47005D8FE2 /* OpenCvServiceRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCvServiceRepository.h; sourceTree = "<group>"; };
 		9F2E085C1C656B47005D8FE2 /* OpenCvServiceRepository.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCvServiceRepository.mm; sourceTree = "<group>"; };
-		9F30C1C81C8433630018988D /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
+		9F410FB81CA786A7003A45DA /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
 		9F5607821CA5F3A900313BA4 /* FPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPS.h; sourceTree = "<group>"; };
 		9F5607831CA5F3A900313BA4 /* FPS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FPS.mm; sourceTree = "<group>"; };
 		9F5607841CA5F3A900313BA4 /* ImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
@@ -186,7 +184,6 @@
 				9FBEDBAA1CA5EB460062A1F8 /* MSERFeature.mm */,
 				9FBEDBAB1CA5EB460062A1F8 /* MSERManager.h */,
 				9FBEDBAC1CA5EB460062A1F8 /* MSERManager.mm */,
-				9F30C1C81C8433630018988D /* sample.png */,
 				9F11BDF01C7EB73300D2E9F9 /* CommonServicesImageProcessing.hpp */,
 				9F5607821CA5F3A900313BA4 /* FPS.h */,
 				9F5607831CA5F3A900313BA4 /* FPS.mm */,
@@ -282,6 +279,14 @@
 			path = OpenCVCompileUITests;
 			sourceTree = "<group>";
 		};
+		9F17DD271CA76BAF008CEAA7 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				9F410FB81CA786A7003A45DA /* O.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
 		9F2E08571C654BD3005D8FE2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +310,7 @@
 		9F897A651C6304F100DD266E /* OpenCv */ = {
 			isa = PBXGroup;
 			children = (
+				9F17DD271CA76BAF008CEAA7 /* imgs */,
 				9FCA77451C5B49C80061E6DF /* AVFoundation */,
 				9F11BDEF1C7EB73300D2E9F9 /* CommonServices */,
 				9F2E085A1C656B47005D8FE2 /* ServiceRepository */,
@@ -373,7 +379,6 @@
 		9FCA77471C5B49C80061E6DF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9F14EFD11C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg */,
 				9FCA77481C5B49C80061E6DF /* AAPLCameraViewController.h */,
 				9FCA77491C5B49C80061E6DF /* AAPLCameraViewController.m */,
 			);
@@ -501,10 +506,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1569E01C1FFDF700B3E6F1 /* LaunchScreen.storyboard in Resources */,
-				9F14EFD21C83A65A00FFDFC7 /* BattleMapSplashScreen.jpg in Resources */,
 				9F1569DD1C1FFDF700B3E6F1 /* Assets.xcassets in Resources */,
 				9F1569D81C1FFDF700B3E6F1 /* Main.storyboard in Resources */,
-				9F30C1C91C8433630018988D /* sample.png in Resources */,
+				9F410FB91CA786A7003A45DA /* O.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
