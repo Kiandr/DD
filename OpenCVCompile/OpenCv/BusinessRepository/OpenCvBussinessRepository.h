@@ -9,7 +9,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "CommonServicesImageProcessing.hpp"
+
+#import "MserCore.hpp"
 #include "AlgorithmProtocol.h"
 
 
@@ -17,8 +18,9 @@
 @interface OpenCvBussinessRepository : NSObject<AlgorithmProtocol>
 
 
+// Core Engine MSER Tools
+@property(nonatomic, strong) MserCore * MserCoreEngine;
 
-@property CommonServicesImageProcessing* imageProc;
 // This is the bussiness repository
 - (UIImage*)AITurnOn:(UIImage*)image;
 

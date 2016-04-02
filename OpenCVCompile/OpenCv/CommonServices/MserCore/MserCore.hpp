@@ -8,17 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "ImageUtility.h"
+
+
+
+
 
 @interface MserCore : NSObject
 
 @property(nonatomic, strong) UIImage * ProcessedImage;
 @property(nonatomic, strong) UIImage * MserImage;
-@property(nonatomic, strong) ImageUtility * CvMatImageUtillity;
+
 
 
 - (id)initWithMserTemplate:(UIImage *) inputtemplateImage;
 - (UIImage*) ProcessIncomeImageWithLeanrtTemplateImage: (UIImage*) inputImage ;
-- (UIImage *) TestTemplateExtractor: (UIImage*) inputtemplateImage ;
+- (UIImage *) TestTemplateExtractor:(UIImage*) templateImage;
 
 @end

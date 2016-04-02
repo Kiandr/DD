@@ -7,3 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+
+#import <UIKit/UIKit.h>
+#import <opencv2/opencv.hpp>
+
+@interface ImageUtility : NSObject
+
+- (cv::Mat) cvMatFromUIImage: (UIImage *) image;
+- (cv::Mat) cvMatGrayFromUIImage: (UIImage *)image;
+- (UIImage *) UIImageFromCVMat: (cv::Mat)cvMat;
+
+
+@end

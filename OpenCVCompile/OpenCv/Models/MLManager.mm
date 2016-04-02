@@ -48,7 +48,7 @@
 
 - (void) learn: (UIImage *) templateImage;
 {
-    cv::Mat logo = [ImageUtils cvMatFromUIImage: templateImage];
+    cv::Mat logo;// = [ImageUtils cvMatFromUIImage: templateImage];
     
     //get gray image
     cv::Mat gray;

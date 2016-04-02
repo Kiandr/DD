@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "ImageUtils.h"
+
 #import <opencv2/opencv.hpp>
+#import "ImageUtils.h"
 
 @interface ImageUtility : NSObject
 

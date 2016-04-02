@@ -26,8 +26,8 @@ extern const cv::Scalar WHITE;
 extern const cv::Scalar YELLOW;
 extern const cv::Scalar LIGHT_GRAY;
 
-+ (cv::Mat) cvMatFromUIImage: (UIImage *) image;
-+ (cv::Mat) cvMatGrayFromUIImage: (UIImage *)image;
+- (cv::Mat) cvMatFromUIImage: (UIImage *) image;
+- (cv::Mat) cvMatGrayFromUIImage: (UIImage *)image;
 
 + (UIImage *) UIImageFromCVMat: (cv::Mat)cvMat;
 

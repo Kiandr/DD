@@ -7,19 +7,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #include <opencv2/opencv.hpp>
-#import  "FPS.h"
-#import "MLManager.h"
 
-
-#import "GeometricsProcessing.hpp"
 #import "OpenCvBussinessRepository.h"
-#import "CommonServicesImageProcessing.hpp"
 
-#import <opencv2/highgui/ios.h>
-#import "MSERManager.h"
-#import "MLManager.h"
-#import "ImageUtils.h"
-#import "GeometryUtil.h"
+
+//#import "ImageUtility.h"
+
+#import "MserCore.hpp"
+#import "ViewController.h"
+
 
 
 @implementation OpenCvBussinessRepository
@@ -30,22 +26,51 @@
 {
     self = [super init];
     if (self) {
-        _imageProc = [[CommonServicesImageProcessing alloc]init];
         
+        _MserCoreEngine = [[MserCore alloc] initWithMserTemplate:[UIImage imageNamed: @"OLogo"]];
         
     }
     return self;
 }
 
 
+
 // This is the bussiness repository
 - (UIImage*)AITurnOn:(UIImage*)image{
     
     
+    
+    UIImage * test = [_MserCoreEngine TestTemplateExtractor:image];
+    
+    
+    
+    
+    
+    
+    
+    
+/// THese are all the notes that are gonna help me with the development sampling code. 
+    
+    
+    
+    //  UIImage * test = [_MserCoreEngine TestTemplateExtractor:[UIImage imageNamed: @"OLogo"]];
+    
+    /*
+    UIImage * test = [[UIImage alloc] init];
+    
+    dispatch_async (dispatch_get_main_queue(), ^{
+    _MserCoreEngine = [[MserCore alloc] initWithMserTemplate:image];
+    [_MserCoreEngine ProcessIncomeImageWithLeanrtTemplateImage:image];
+    });
+
+    */
+    
     // Apply MSER detection
-    // image = [busserepo ]
+    //
     
+    //UIImage * test = [CoreEngin ProcessIncomeImageWithLeanrtTemplateImage:image];
     
+    /*
     // Initalization of all Local Vaiables
     cv::Mat gray;
     cv::Mat inputImage;
@@ -62,11 +87,11 @@
     
     // gray shoud be the example picture that custrocts and object in the detector which is bwing used in the extrct Features.
     
-    UIImage *test = [UIImage imageNamed:@"O.png"];
+    //UIImage *test = [UIImage imageNamed:@"O.png"];
     //UIImage* imageObj = [[UIImage alloc] initWithContentsOfFile:imageName];
     
     
-    // Calling to MSER Manager /*This manager layer is unknown to me*/
+    // Calling to MSER Manager /*This manager layer is unknown to me
     std::vector<std::vector<cv::Point>> msers;
     [[MSERManager sharedInstance] detectRegions: gray intoVector: msers];
     
@@ -121,7 +146,7 @@
     // return this image to the user.
     
     image = MatToUIImage(inputImage);
-    
+    */
     /*
      
      
@@ -177,7 +202,7 @@
      
      */
     
-    return image;
+    return test;
 };
 
 
